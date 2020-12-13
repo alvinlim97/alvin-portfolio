@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+
+.mg0 {
+  margin: 0 !important;
+}
+.mgt10 {
+  margin-top: 10px;
+}
+.pg0 {
+  padding: 0 !important;
+}
+.tac {
+  text-align: center !important;
+}
+.tar {
+  text-align: right !important;
+}
+
+.separator {
+  margin: 10px 0 10px 0;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 0;
+  color: #ff0000;
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.link {
+  margin-top: 20px;
+  color: white;
+}
+
+.comp {
+  background: white;
+}

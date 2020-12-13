@@ -1,0 +1,34 @@
+.banner {
+  background: url("../../../assets/Presentation2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+
+.caption-left {
+  padding: 100px 60% 100px 5%;
+  font-size: 3rem;
+  text-align: left;
+  font-weight: lighter;
+  color: white;
+}
+
+.caption-middle {
+  padding: 800px 10% 0 10%;
+  font-size: 3vw;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.caption-right {
+  padding: 100px 5% 100px 50%;
+  font-size: 3vw;
+  text-align: right;
+  font-weight: lighter;
+}
+
+@media (max-width: 576px) {
+  .caption-left {
+    font-size: 2.1rem;
+  }
+}

@@ -1,0 +1,28 @@
+.mainBlock {
+  min-height: 700px;
+  background-color: #221f1f;
+}
+
+.block-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: crimson;
+  margin-top: 20px;
+}
+
+.block-desc-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: burlywood;
+  margin-top: 20px;
+}
+
+.block-date {
+  font-size: 12px;
+  color: crimson;
+}
+
+.block-desc {
+  color: white;
+  text-align: justify;
+}

@@ -1,0 +1,93 @@
+.mainBlock {
+  min-height: 180px;
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 3rem;
+  color: burlywood;
+  margin-bottom: 20px;
+}
+
+.line {
+  border-bottom: solid 2px brown;
+  width: 160px;
+  margin: auto;
+}
+
+.block {
+  width: 100%;
+  height: 300px;
+  background: white;
+  color: black;
+  border-bottom: solid 4px coral;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  -webkit-box-shadow: 0px 0px 19px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 19px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 19px -5px rgba(0, 0, 0, 0.75);
+}
+
+.block:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(0.95);
+}
+
+.block-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.block-img {
+  min-height: 162px;
+}
+
+.block-desc {
+  padding: 3px;
+  text-align: center;
+  font-size: 12px;
+  min-height: 42px;
+}
+
+.block-pos {
+  text-align: center;
+  font-weight: 600;
+  color: cadetblue;
+  padding: 3px;
+}
+
+.ql {
+  text-align: left;
+  color: white;
+  font-size: 50px;
+}
+.qr {
+  text-align: right;
+  color: white;
+  font-size: 50px;
+}
+
+.linkc {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (max-width: 991px) {
+  .block-img {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .block-img {
+    display: flex;
+  }
+  .mtac {
+    text-align: center !important;
+  }
+}
